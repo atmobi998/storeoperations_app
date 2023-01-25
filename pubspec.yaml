@@ -1,0 +1,61 @@
+name: storeoperations_app
+description: ATC Store Operations
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.5.8+399
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter     
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.21.0-nullsafety.0 
+  provider: ^5.0.0
+  http: ^0.13.4
+  image_picker: 0.8.4+2
+  flutter_barcode_scanner: 
+    path: ../custom_pkgs/flutter_barcode_scanner
+  flutter_keychain: 
+    path: ../custom_pkgs/flutter_keychain
+  sized_context: ^1.0.0+1
+  slugify: ^1.0.0
+  new_virtual_keyboard: ^0.1.4
+  intl: ^0.17.0
+  printing: ^5.6.0
+  audiofileplayer: 
+    path: ../custom_pkgs/audiofileplayer
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  generate: true 
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/sounds/beep-read-01.mp3
+    - assets/sounds/beep-read-02.mp3
+    
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/open-sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/open-sans/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/open-sans/OpenSans-Light.ttf
+          weight: 300
+
