@@ -4,7 +4,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:pdf/pdf.dart';
-import 'dart:typed_data';
+// import 'dart:typed_data';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
 import 'package:flutter/material.dart';
@@ -100,7 +100,7 @@ initState() {
                                     Container(
                                       alignment: Alignment.center,
                                       child: DefaultTextStyle(
-                                        style: textTheme.headline4!,
+                                        style: textTheme.headlineMedium!,
                                         child: RawKeyboardListener(
                                           focusNode: _focusNode,
                                           onKey: _handleKeyEvent,
@@ -164,7 +164,7 @@ initState() {
                                     Container(
                                       alignment: Alignment.center,
                                       child: DefaultTextStyle(
-                                        style: textTheme.headline4!,
+                                        style: textTheme.headlineMedium!,
                                         child: RawKeyboardListener(
                                           focusNode: _focusNodeChg,
                                           onKey: _handleKeyEvent,
@@ -1426,7 +1426,7 @@ showExitDialog(BuildContext context) {
                                 Container(
                                   alignment: Alignment.center,
                                   child: DefaultTextStyle(
-                                    style: textTheme.headline4!,
+                                    style: textTheme.headlineMedium!,
                                     child: buildCashChangeFormField(),
                                   ),
                                 ),
@@ -1438,7 +1438,7 @@ showExitDialog(BuildContext context) {
                                 Container(
                                   alignment: Alignment.center,
                                   child: DefaultTextStyle(
-                                    style: textTheme.headline4!,
+                                    style: textTheme.headlineMedium!,
                                     child: RawKeyboardListener(
                                       focusNode: _focusNodeCash,
                                       onKey: _handleKeyEvent,
@@ -1635,7 +1635,7 @@ showExitDialog(BuildContext context) {
                                 Container(
                                   alignment: Alignment.center,
                                   child: DefaultTextStyle(
-                                    style: textTheme.headline4!,
+                                    style: textTheme.headlineMedium!,
                                     child: RawKeyboardListener(
                                           focusNode: _focusNodeSetup,
                                           onKey: _handleKeyEvent,

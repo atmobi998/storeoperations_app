@@ -145,7 +145,7 @@ class _SignFormState extends State<SignForm> with AfterLayoutMixin<SignForm> {
               Container(
                 alignment: Alignment.center,
                 child: DefaultTextStyle(
-                  style: textTheme.headline4!,
+                  style: textTheme.headlineMedium!,
                   child: RawKeyboardListener(
                     focusNode: _focusNodeusrcode,
                     onKey: _handleKeyEvent,
@@ -157,7 +157,7 @@ class _SignFormState extends State<SignForm> with AfterLayoutMixin<SignForm> {
               Container(
                 alignment: Alignment.center,
                 child: DefaultTextStyle(
-                  style: textTheme.headline4!,
+                  style: textTheme.headlineMedium!,
                   child: RawKeyboardListener(
                     focusNode: _focusNodepasscode,
                     onKey: _handleKeyEvent,
