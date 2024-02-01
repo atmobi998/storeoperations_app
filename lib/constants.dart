@@ -153,7 +153,7 @@ double pct10ScrlHei = fullScrlHei * (10/100);
 double pct08ScrlWid = fullScrlWid * (8/100);
 double pct08ScrlHei = fullScrlHei * (8/100);
 
-const String kMapAPIkey = 'AIzaSyBOTARokUbwMcfHbZPoSHzTiWi8bE_umpg';
+const String kMapAPIkey = 'Map key from Google Console';
 
 // Rest URIs
 
